@@ -1,0 +1,149 @@
+*{
+    font-family: Poppins;
+}
+
+body {
+    margin: 0 80px;
+}
+
+body > nav, .nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1,  h4 {
+    font-family: 'Fredoka One';
+    letter-spacing: 2px;
+}
+nav {
+    gap: 170px;
+    margin-top: 60px;
+}
+
+.nav-items {
+    align-items: center;
+    display: flex;
+    gap: 0;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 40px;
+
+}
+
+.nav-item.active-item {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fe5e35;
+}
+
+.intro-section {
+    align-items: flex-end;
+    display: flex;
+    margin: 20px 0;
+}
+
+.left-section,
+.right-section {
+    width: 50%;
+}
+
+.left-section > h3 {
+    margin: 0;
+}
+
+.right-section {
+    text-align: center;
+}
+
+.headphone-div {
+    position: relative;
+}
+
+.discount,
+.headphone-div > div {
+    position: absolute;
+}
+
+.headphone-div > div {
+    color: #fff;
+    left: 132px;
+    top: 350px;
+}
+
+.discount {
+    top: 300px;
+}
+
+.discount-content h4 {
+    font-size: 16px;
+}
+
+.headphone-div > img:last-child {
+    max-height: 500px;
+}
+
+.discount-content h1 {
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.discount-content h4,
+.discount-content h1 {
+    margin: 0;
+    font-weight: 500;
+}
+
+.left-section {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.left-section > h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.left-section > h1 {
+    font-size: 60px;
+    margin: 0;
+    line-height: 80px;
+}
+.action-btn {
+    background-color: #fe5e35;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    height: 50px;
+    font-size: 20px;
+    padding: 0 25px;
+}
+
+.action-btns > button:first-child {
+    margin-right: 25px;
+}
+.text {
+    color: #b5b5b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sub-headlines {
+    margin: 40px 0;
+    padding-left: 60px;
+
+}
+
+.sub-headline {
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.sub-headline img {
+    background-color: #fe5e35;
+    border-radius: 15px;
+    padding: 3px;
+}
