@@ -6,3 +6,4 @@
   
  - Screenshot:
    ![Snapshot of entire page](https://github.com/govind-magar-999/webpage-assignment-07/blob/main/thumbnail.png)
+   ![Snapshot of entire page](https://github.com/govind-magar-999/webpage-assignment-07/blob/main/07.png)
